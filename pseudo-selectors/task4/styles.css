@@ -1,7 +1,7 @@
 input[type='checkbox']:checked {
   margin-left: 50px;
 }
-.special::first-letter {
+#special::first-letter {
   font-size: 100px;
   color: green;
 }
@@ -11,6 +11,6 @@ h1:hover {
 a:visited {
   color: grey;
 }
-label > input:focus {
+label:hover {
   text-transform: uppercase;
 }
