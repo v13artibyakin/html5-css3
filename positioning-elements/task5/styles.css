@@ -8,6 +8,9 @@
   position: fixed;
   z-index: 1;
 }
+.navigation {
+  margin-left: 16px;
+}
 .nav-list {
   margin: 0px;
   padding: 0px;
