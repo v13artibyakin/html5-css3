@@ -11,12 +11,12 @@
 .nav-list {
   height: 40px;
   color: white;
-  margin-top: 0.575em;
 }
 .nav-item {
   float: left;
   margin-left: 16px;
   list-style-type: none;
+  line-height: 0.575em;
 }
 .content {
   background-color: beige;
