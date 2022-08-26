@@ -7,8 +7,9 @@
 .some_list {
   display: flex;
   list-style-type: none;
-  /* margin-left: 16px; */
+  margin-left: 16px;
   align-items: center;
+  padding: 0;
 }
 .some_list_item {
   margin-left: 16px;
