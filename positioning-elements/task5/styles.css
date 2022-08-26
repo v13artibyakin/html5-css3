@@ -1,6 +1,6 @@
-* {
-  box-sizing: border-box;
-}
+/* * {
+  box-sizing: content-box;
+} */
 .header {
   width: 100%;
   background-color: darkturquoise;
@@ -9,15 +9,16 @@
   z-index: 1;
 }
 .navigation {
-  margin-left: 16px;
+  margin-left: 24px;
+  position: relative;
 }
 .nav-list {
-  margin: 0px;
+  margin: 0px 0px 0px 16px;
   padding: 0px;
   height: 40px;
   color: white;
   line-height: 40px;
-  margin-left: 16px;
+  /* margin-left: 16px; */
 }
 .nav-item {
   float: left;
