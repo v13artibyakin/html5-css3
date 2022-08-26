@@ -11,7 +11,7 @@
 .nav-list {
   height: 40px;
   color: white;
-  line-height: 50%;
+  margin-top: 0.575em;
 }
 .nav-item {
   float: left;
