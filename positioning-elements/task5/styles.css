@@ -9,10 +9,13 @@
   z-index: 1;
   line-height: 50%;
 }
+.nav-list {
+  height: 40px;
+  color: white;
+}
 .nav-item {
   float: left;
   margin-left: 16px;
-  color: white;
   list-style-type: none;
 }
 .content {
@@ -25,7 +28,7 @@
   height: 200px;
   background-color: aquamarine;
   left: calc(50% - 100px);
-  top: 50%;
+  top: calc(50% - 130px);
 }
 .ear {
   width: 40px;
