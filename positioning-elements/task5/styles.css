@@ -9,14 +9,16 @@
   z-index: 1;
 }
 .nav-list {
+  margin: 0px;
+  padding: 0px;
   height: 40px;
   color: white;
+  line-height: 40px;
 }
 .nav-item {
   float: left;
   margin-left: 16px;
   list-style-type: none;
-  line-height: 0.575em;
 }
 .content {
   background-color: beige;
