@@ -13,6 +13,7 @@
   float: left;
   margin-left: 16px;
   color: white;
+  list-style-type: none;
 }
 .content {
   background-color: beige;
