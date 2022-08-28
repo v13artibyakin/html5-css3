@@ -3,9 +3,14 @@
   justify-content: center;
 }
 .article {
+  box-sizing: border-box;
   margin: 8px;
   padding: 16px;
   background-color: bisque;
-  flex-shrink: 300px;
-  flex-basis: 100vh;
+  flex-basis: 300px;
+  flex-grow: 1;
+}
+.articles-list {
+  display: flex;
+  flex-wrap: wrap;
 }
