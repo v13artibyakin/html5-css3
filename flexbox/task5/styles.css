@@ -1,0 +1,11 @@
+.header {
+  display: flex;
+  justify-content: center;
+}
+.article {
+  margin: 8px;
+  padding: 16px;
+  background-color: bisque;
+  flex-shrink: 300px;
+  flex-basis: 100vh;
+}
