@@ -1,0 +1,9 @@
+.gallery {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  cursor: all-scroll;
+}
+.thumb {
+  margin: 8px;
+}
