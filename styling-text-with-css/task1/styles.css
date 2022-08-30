@@ -29,5 +29,5 @@ a {
   text-transform: uppercase;
   word-spacing: 20px;
   text-align: center;
-  margin: auto;
+  /* margin: auto; */
 }
