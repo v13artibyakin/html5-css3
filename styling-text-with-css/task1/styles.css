@@ -1,6 +1,11 @@
+* {
+  box-sizing: border-box;
+}
 html {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
+}
+.container {
   margin: 32px;
 }
 p {
@@ -10,12 +15,12 @@ p {
   text-decoration: underline;
   letter-spacing: 3px;
   font-size: 24px;
-  opacity: 80%;
-  font-weight: bold;
+  opacity: 0.8;
+  /* font-weight: bold; */
 }
 em {
   color: grey;
-  font-style: italic;
+  /* font-style: italic; */
 }
 a {
   text-decoration: none;
