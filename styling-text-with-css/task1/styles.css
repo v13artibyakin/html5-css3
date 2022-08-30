@@ -6,7 +6,7 @@ html {
 p {
   line-height: 28px;
 }
-.bolt {
+.bold {
   text-decoration: underline;
   letter-spacing: 3px;
   font-size: 24px;
@@ -19,7 +19,7 @@ em {
 a {
   text-decoration: none;
 }
-.h1 {
+.tittle {
   text-transform: uppercase;
   word-spacing: 20px;
   text-align: center;
