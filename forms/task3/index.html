@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+      integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      .checkbox {
+        display: block;
+        position: relative;
+        padding-left: 35px;
+        margin: 16px;
+        font-size: 24px;
+      }
+      #agree {
+        visibility: hidden;
+        width: 0;
+        height: 0;
+      }
+      .checkmark {
+        width: 25px;
+        height: 25px;
+        background-color: #d3d3d3;
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      .checkbox input:checked + .checkmark {
+        background-color: #006400;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="checkbox">
+      Checkbox
+      <input id="agree" type="checkbox" name="agree" />
+      <label class="checkmark" for="agree"></label>
+    </div>
+  </body>
+</html>
