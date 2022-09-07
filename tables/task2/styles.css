@@ -10,11 +10,13 @@ th {
 td,
 th {
   padding: 4px;
+  line-height: 40px;
 }
 table {
   width: 500px;
   text-align: right;
-  margin: 16px;
+  /* margin: 16px; */
+  font-family: Arial, Helvetica, sans-serif;
 }
 div {
   overflow-x: auto;
@@ -32,9 +34,6 @@ thead {
 tfoot {
   font-weight: 700;
 }
-/* caption {
-  margin-bottom: 8px;
-} */
-tr {
-  line-height: 30px;
+caption {
+  margin: 8px;
 }
