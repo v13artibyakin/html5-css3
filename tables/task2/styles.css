@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  /* margin: 0; */
 }
 table,
 td,
@@ -37,5 +38,5 @@ caption {
   margin-bottom: 8px;
 }
 tr {
-  line-height: 25px;
+  line-height: 32px;
 }
