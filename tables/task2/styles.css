@@ -6,11 +6,11 @@ td,
 th {
   border: 1px solid black;
   border-collapse: collapse;
-  line-height: 40px;
 }
 td,
 th {
   padding: 4px;
+  line-height: 40px;
 }
 table {
   width: 500px;
@@ -33,6 +33,6 @@ thead {
 tfoot {
   font-weight: 700;
 }
-caption {
+/* caption {
   margin-bottom: 8px;
-}
+} */
