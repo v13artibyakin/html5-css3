@@ -10,7 +10,6 @@ th {
 td,
 th {
   padding: 4px;
-  line-height: 40px;
 }
 table {
   width: 500px;
@@ -36,3 +35,6 @@ tfoot {
 /* caption {
   margin-bottom: 8px;
 } */
+tr {
+  line-height: 40px;
+}
