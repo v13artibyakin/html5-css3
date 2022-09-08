@@ -8,6 +8,7 @@
   height: 100vh;
 }
 .spinner {
+  display: flex;
   margin: auto;
 }
 .spinner-text {
