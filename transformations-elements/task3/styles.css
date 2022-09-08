@@ -8,8 +8,9 @@
   height: 100vh;
 }
 .spinner {
-  display: block;
+  display: flex;
   margin: auto;
+  flex-direction: column;
 }
 .spinner-text {
   font-family: monospace;
