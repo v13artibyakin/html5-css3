@@ -27,7 +27,7 @@ body {
 }
 @keyframes block {
   from {
-    top: -100px;
+    top: 100px;
   }
   to {
     top: calc(50vh - 50px);
