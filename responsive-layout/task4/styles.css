@@ -24,18 +24,20 @@ html {
 .navigation {
   width: 20%;
   padding: 0.5em;
+  height: 100%;
 }
 .section {
   display: flex;
   flex-direction: column;
   width: 60%;
-
+  height: 100%;
   padding: 0.5em;
   font-size: 1.25em;
 }
 .news {
   width: 20%;
   padding: 0.5em;
+  height: 100%;
 }
 .footer {
   display: flex;
@@ -63,7 +65,7 @@ html {
 }
 .nav-list-item {
   background-color: #808080;
-  width: 20vw;
+  width: 100%;
   height: 2em;
   margin-bottom: 0.5em;
   color: #fff;
