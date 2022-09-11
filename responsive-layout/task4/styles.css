@@ -1,10 +1,10 @@
 * {
   box-sizing: border-box;
-  margin: 0;
+  /* margin: 0; */
   list-style-type: none;
 }
 html {
-  font-family: Verdana;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 16px;
   color: #555;
 }
