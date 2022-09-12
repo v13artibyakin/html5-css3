@@ -71,7 +71,7 @@ html {
   height: 2em;
   margin-bottom: 0.5em;
   color: #fff;
-  padding: 0.5em;
+  /* padding: 0.5em; */
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -81,5 +81,5 @@ html {
     display: block;
   color: #fff;
   text-decoration: none;
- 
+   padding: 0.5em;
 }
