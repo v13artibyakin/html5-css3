@@ -3,6 +3,8 @@
   /* margin: 0; */
 }
 html {
+  width: 1200px;
+  height: 100vh;
   font-family: Verdana;
   font-size: 16px;
   color: #555;
@@ -21,23 +23,17 @@ html {
   flex-grow: 1;
 }
 .navigation {
-  display: flex;
-  flex-direction: column;
   width: 20vw;
   padding: 0;
   height: 100vh;
 }
 .section {
-  display: flex;
-  flex-direction: column;
   width: 60vw;
   height: 100vh;
   padding: 0.5em;
   font-size: 1.25em;
 }
 .news {
-  display: flex;
-  flex-direction: column;
   width: 20vw;
   padding: 0.5em;
   height: 100hw;
