@@ -26,8 +26,7 @@ html {
 }
 .main {
   display: flex;
-  flex-direction: row;
-  /* flex-grow: 1; */
+  flex-direction: row;s
 }
 .navigation {
   width: 20vw;
@@ -50,7 +49,6 @@ html {
 }
 
 .css-units {
-  /* line-height: 1.75em; */
   color: #8b0000;
   background-color: #e5e5e5;
   font-size: 1.125em;
@@ -58,8 +56,6 @@ html {
 }
 .section__header {
   font-size: 5vw;
-  /* margin: auto; */
-  /* line-height: 2em; */
   text-align: center;
 }
 .nav-list {
@@ -67,8 +63,8 @@ html {
   padding: 0;
 }
 .nav-list-item {
-  /* display: flex;
-  align-items: center; */
+     display: flex;
+    align-items: center;
   background-color: #808080;
   width: 100%;
   height: 2em;
@@ -78,9 +74,10 @@ html {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+
 }
 .nav-list-link {
   color: #fff;
   text-decoration: none;
-  /* padding: 0.5em; */
+ 
 }
