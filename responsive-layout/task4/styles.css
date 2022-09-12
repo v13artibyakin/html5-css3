@@ -26,8 +26,8 @@ html {
   height: 100%;
 }
 .section {
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   width: 60%;
   height: 100%;
   padding: 0.5em;
@@ -58,7 +58,8 @@ html {
 .section__header {
   font-size: 5vw;
   margin: auto;
-  line-height: 2em;
+  /* line-height: 2em; */
+  text-align: center;
 }
 .nav-list {
   list-style-type: none;
