@@ -22,7 +22,7 @@ html {
 }
 .navigation {
   width: 20vw;
-  padding: 0.5em;
+  padding: 0;
   height: 100vh;
 }
 .section {
@@ -63,9 +63,11 @@ html {
 }
 .nav-list {
   list-style-type: none;
-  padding: 0;
+  padding: 0.5em;
 }
 .nav-list-item {
+  display: flex;
+  align-items: center;
   background-color: #808080;
   width: 100%;
   height: 2em;
