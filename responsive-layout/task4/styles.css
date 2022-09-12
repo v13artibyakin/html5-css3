@@ -64,7 +64,7 @@ html {
   /* margin: 0; */
 }
 .nav-list-item {
-  display: flex;
+  /* display: flex; */
   align-items: center;
   background-color: #808080;
   width: 100%;
