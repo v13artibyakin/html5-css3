@@ -21,22 +21,22 @@ html {
   flex-grow: 1;
 }
 .navigation {
-  width: 20%;
+  width: 20vw;
   /* padding: 0.5em; */
-  height: 100%;
+  height: 100vh;
 }
 .section {
   /* display: flex;
   flex-direction: column; */
-  width: 60%;
-  height: 100%;
+  width: 60vw;
+  height: 100vh;
   padding: 0.5em;
   font-size: 1.25em;
 }
 .news {
-  width: 20%;
+  width: 20vw;
   padding: 0.5em;
-  height: 100%;
+  height: 100hw;
 }
 .footer {
   display: flex;
