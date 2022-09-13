@@ -65,7 +65,7 @@ html {
 }
 .nav-list-item {
   background-color: #808080;
-  width: 100%;
+  /* width: 100%; */
   height: 2em;
   margin-bottom: 0.5em;
   color: #fff;
@@ -78,5 +78,5 @@ html {
     display: block;
   color: #fff;
   text-decoration: none;
-   padding: 0.5em;
+   padding: 0 0.5em;
 }
