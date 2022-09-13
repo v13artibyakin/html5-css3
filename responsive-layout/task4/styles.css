@@ -59,7 +59,7 @@ html {
   text-align: center;
 }
 .nav-list {
-  display: block;
+  /* display: block; */
   list-style-type: none;
   padding: 0;
 }
@@ -74,7 +74,7 @@ html {
   display: block;
   color: #fff;
   text-decoration: none;
-  padding: 0.5em;
+  padding: 0 0.5em;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
