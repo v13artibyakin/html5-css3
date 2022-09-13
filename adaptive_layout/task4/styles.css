@@ -26,10 +26,10 @@ html {
   list-style-type: none;
 }
 .navigation {
-  width: 20vw;
   padding: 0.5em;
 }
 .nav-list-item {
+  width: 20vw;
   background-color: #808080;
   color: #fff;
   height: 2em;
