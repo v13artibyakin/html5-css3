@@ -78,4 +78,5 @@ html {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  line-height: 2em;
 }
