@@ -6,6 +6,15 @@ html {
   font-size: 16px;
   color: #555;
 }
+body {
+  height: 100%;
+}
+.wrapper {
+  margin: 0;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
 .header {
   display: flex;
   bottom: 0;
@@ -18,18 +27,16 @@ html {
 }
 .footer {
   display: flex;
-
   width: 100vw;
   background-color: #e5e5e5;
   padding: 0.5em;
   justify-content: center;
-  bottom: 0;
-  left: 0;
 }
 .main {
   display: flex;
   flex-direction: row;
   height: 100%;
+  flex: 1 1 auto;
 }
 .container {
   display: flex;
