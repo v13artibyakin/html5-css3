@@ -34,22 +34,20 @@ html {
   flex-grow: 2;
 }
 .navigation {
-  width: 20%;
+  max-width: 20vw;
   padding: 0.5em;
   height: 100%;
   flex-grow: 1;
-  /* flex-shrink: 0; */
 }
 .section {
-  width: 60%;
+  max-width: 60vw;
   height: 100%;
   padding: 0.5em;
   font-size: 1.25em;
   flex-grow: 1;
-  /* flex-shrink: 0; */
 }
 .news {
-  width: 20%;
+  max-width: 20vw;
   padding: 0.5em;
   height: 100%;
   flex-grow: 1;
@@ -69,13 +67,11 @@ html {
   text-align: center;
 }
 .nav-list {
-  /* display: block; */
   list-style-type: none;
   padding: 0;
 }
 .nav-list-item {
   background-color: #808080;
-  /* width: 100%; */
   height: 2em;
   margin-bottom: 0.5em;
   color: #fff;
@@ -94,6 +90,10 @@ img {
   max-width: 100%;
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
 }
+picture {
+  flex-shrink: 1;
+  flex-grow: 1;
+}
 
 @media screen and (max-width: 599px) {
   .main {
@@ -103,13 +103,13 @@ img {
     flex-direction: column;
   }
   .navigation {
-    width: 100%;
+    max-width: 100%;
   }
   .section {
-    width: 100%;
+    max-width: 100%;
   }
   .news {
-    width: 100%;
+    max-width: 100%;
   }
 }
 @media screen and (min-width: 600px) and (max-width: 1199px) {
@@ -121,9 +121,9 @@ img {
   }
 
   .section {
-    width: 80%;
+    max-width: 80%;
   }
   .news {
-    width: 100%;
+    max-width: 100%;
   }
 }
