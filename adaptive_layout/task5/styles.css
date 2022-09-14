@@ -47,12 +47,12 @@ body {
 .navigation {
   max-width: 20vw;
   padding: 0.5em;
-  height: 100%;
+  /* height: 100%; */
   flex-grow: 1;
 }
 .section {
   max-width: 60vw;
-  height: 100%;
+  /* height: 100%; */
   padding: 0.5em;
   font-size: 1.25em;
   flex-grow: 1;
@@ -60,7 +60,7 @@ body {
 .news {
   max-width: 20vw;
   padding: 0.5em;
-  height: 100%;
+  /* height: 100%; */
   flex-grow: 1;
 }
 .units-list {
