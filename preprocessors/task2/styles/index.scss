@@ -25,6 +25,9 @@
     background-color: #8a2be2;
   }
   @include for-large {
+    background-color: #a61;
+  }
+  @include for-xlagre {
     background-color: #c47;
   }
 }
