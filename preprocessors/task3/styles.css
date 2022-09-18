@@ -9,11 +9,11 @@
   flex-direction: row;
   margin: 0;
   text-transform: uppercase;
+  margin-left: 3em;
 }
 .menu__item {
   display: block;
   line-height: 3em;
-  margin-left: 3em;
   padding: 0 8px;
   color: #fff;
 }
