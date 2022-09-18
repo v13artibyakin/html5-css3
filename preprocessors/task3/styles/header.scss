@@ -21,7 +21,7 @@
   }
   &__item_active {
     color: $text-color-primary;
-    background-color: $color-secondary;
+    // background-color: $color-secondary;
     &:hover {
       .submenu {
         display: block;

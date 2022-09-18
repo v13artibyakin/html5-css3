@@ -22,7 +22,6 @@
 }
 .menu__item_active {
   color: yellow;
-  background-color: #9acd32;
 }
 .menu__item_active:hover .submenu {
   display: block;
