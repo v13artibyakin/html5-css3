@@ -10,11 +10,11 @@
   margin: 0;
   text-transform: uppercase;
   padding: 0 8px;
+  margin-left: 3em;
 }
 .menu__item {
   display: block;
   line-height: 3em;
-  margin-left: 3em;
   padding: 0 8px;
   color: #fff;
 }

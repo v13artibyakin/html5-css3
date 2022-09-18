@@ -9,11 +9,11 @@
   margin: 0;
   text-transform: uppercase;
   padding: 0 $unit;
+  margin-left: 3em;
 
   &__item {
     display: block;
     line-height: 3em;
-    margin-left: 3em;
     padding: 0 $unit;
     color: $text-color;
   }
